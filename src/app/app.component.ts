@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { WeatherServiceService } from './weather-service.service';
 import { Subscriber } from 'rxjs';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

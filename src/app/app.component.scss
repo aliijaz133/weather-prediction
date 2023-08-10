@@ -30,6 +30,18 @@
   height: 120px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 70px;
+  width: 180px;
+  cursor: none;
+  user-select: none;
+}
+
 @media (max-width: 900px) {
   .secondary-container {
     display: flex;
